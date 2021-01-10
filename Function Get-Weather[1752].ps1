@@ -1,4 +1,4 @@
-#Chris Panas, Arlen Salguero, Cameron Howerton, Edgar Torres, Matthew Means#     #10/7/2020#      #Visual Studio Code# #PS 7.0#
+#Chris Panas#     #10/7/2020#      #Visual Studio Code# #PS 7.0#
 Function Get-Weather {
 
     [CmdletBinding()]
