@@ -32,7 +32,7 @@ Function Get-Weather {
         
         $response2 | format-table -autosize
         $response2 | Format-List -Verbose
-        $response2 | Out-GridView -Title "Weather for the next ($numberdays) days in ($location)" -OutputMode Single
+        $response2 | Out-GridView -Title "Weather for the next ($numberdays) days in ($location)" #-OutputMode Single
     }
     else {
         $r
